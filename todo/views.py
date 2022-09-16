@@ -40,7 +40,6 @@ def detailtodo(request, id):
 
 
 
-
 @api_view(['PUT'])
 def edittodo(request, id):
     record= Customer.objects.get(id=id)
